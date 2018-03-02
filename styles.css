@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 20px 100px 0px 100px;
+    background: #f3f3f3;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+}
+
+#myFooter {
+   background-color:#111111;
+   height:35px;
+   padding-top:10px;
+   padding-left:0px;
+   text-align:center;
+}
+
+a.myLink {
+   color:white;
+}
+.containerSmall {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows:1fr;
+}
+.containerBig {
+  grid-template-columns: 300px 1fr;
+  grid-template-rows:1fr;
+}
+
